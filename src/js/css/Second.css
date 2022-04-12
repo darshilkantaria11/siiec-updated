@@ -1,0 +1,84 @@
+.secondcont{
+    display: grid;
+    grid-template-areas: 
+    'up up up up'
+    'down down down down';
+    
+}
+
+.up{
+    grid-area: up;
+}
+.down{
+    grid-area: down;
+}
+
+
+.up{
+    display: grid;
+    grid-template-areas: 
+    'one two three four';
+    margin: 10px auto 10px auto;
+}
+.down{
+    display: grid;
+    grid-template-areas: 
+    'five six seven seven';
+    margin: 100px auto 10px auto;
+}
+
+#one{
+    grid-area: one;
+    
+    font-size: 25px;
+}
+#two{
+    grid-area: two;
+    font-size: 25px;
+    background-color: #FFBF00;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 60px;
+    font-weight: 700;
+
+}
+#three{
+    grid-area: three;
+    font-size: 25px;
+    margin-right: 5px;
+}
+#two:hover {
+    grid-area: two;
+    font-size: 25px;
+    background-color: #FFBF00;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 60px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#four{
+    grid-area: four;
+    font-size: 25px;
+    padding-top: 25px;
+}
+#five{
+    grid-area: five;
+    color: #fed063;
+    font-size: 35px;
+    font-weight: 500;
+}
+#six{
+    grid-area: six;
+    font-size: 35px;
+    font-weight: 500;
+}
+#seven{
+    grid-area: seven;
+    font-size: 35px;
+    color: #fed063;
+}

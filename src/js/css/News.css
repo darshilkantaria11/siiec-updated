@@ -1,0 +1,38 @@
+.contnews{
+    align-items: center;
+    padding: auto;
+
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 60px;
+    background-color: #FEF8F5;
+}
+
+.jon {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#ge {
+    font-size: 15px;
+}
+#kl {
+    background-color: #EB5D1E;
+    border: none;
+    height: 42.5px;
+    width: 110.29px;
+    color: white;
+}
+
+#ema {
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+}
+/*
+.contnews h3,p{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+} */

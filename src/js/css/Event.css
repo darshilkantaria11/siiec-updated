@@ -1,0 +1,8 @@
+.contevent{
+    background-image:url(../image/eventbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 900px;
+color: white;
+}

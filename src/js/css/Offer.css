@@ -1,0 +1,54 @@
+.Offer1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 50px;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 0px;
+    grid-area: offer1;
+}
+
+.myimg {
+    height: 100px;
+    width: 100px;
+    padding: 62px;
+    box-shadow: 10px 10px #edebeb;
+  }
+
+.jk {
+    grid-area: jk;
+}
+.myman {
+    height: 800px;
+    width: 700px;
+    grid-area: myman;
+}
+.he {
+    display: grid;
+    grid-template-areas: 
+    'jk jk'
+    'offer1 myman';
+}
+
+
+
+#what {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+#offer {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 76px;
+    color: #FFC429;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.kk{
+    width: 900px;
+    height: auto;
+}

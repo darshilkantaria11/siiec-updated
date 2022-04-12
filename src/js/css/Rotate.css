@@ -1,0 +1,17 @@
+.list{
+    background-color: #FEF8F5;
+    overflow: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+
+.imgsr{
+    padding: 30px;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    margin: 0px;
+}

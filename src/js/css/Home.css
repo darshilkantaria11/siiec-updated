@@ -1,0 +1,99 @@
+.container{
+    background-image:url(../image/baground.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: grid;
+     grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section aside aside'
+                'footer footer footer footer ';
+
+}
+
+
+.navbar{
+    
+    margin: 10px 10px;
+}
+.content{
+    
+    margin: 30px 0px 30px 70px;
+}
+.aside{
+    
+    margin: 30px 0px 30px 0px;
+    
+}
+
+nav {
+    grid-area: navbar;
+}
+
+section {
+    grid-area: section;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.content h3{
+    color: #494948;
+    font: 45px Ubuntu, sans-serif;
+    margin: 0px 0px 8px;
+}
+.content h2{
+    color: #ffbf00;
+    
+    font: 65px Ubuntu, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    margin: 0px 0px 8px;
+}
+.content h1{
+    color: #000000;
+    font: 64px Ubuntu, sans-serif;
+    margin: 0px 0px 8px;
+}
+.imgs1{
+    width: 500px;
+    height: 600px;
+}
+button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000;
+    background-color: transparent;
+    border: 5px solid #ffbf00;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btnp:hover{
+    color: white;
+    background-color: rgb(5, 4, 4);
+    cursor: pointer;
+    border: 5px solid black;
+    
+
+}
+.btnp:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+footer p{
+    margin: 0px 0px 0px 0px;
+}  

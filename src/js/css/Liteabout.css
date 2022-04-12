@@ -1,0 +1,30 @@
+.l1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.l1 p{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.l2 p{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.l3 p{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+.l4 {
+    display: flex;
+    justify-content: center;
+    
+}
+.l4 button{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
