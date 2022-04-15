@@ -16,7 +16,7 @@ const Idea = () => {
                 </div>
                 <div className="i2">
                     <h1 className="i2a">
-                        ?
+                        
                     </h1>
                 </div>
                 <div className="i3">

@@ -1,0 +1,119 @@
+.imgpat{
+    height: 80%;
+    width: 100%;
+}
+.patop{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #fcbd19;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+      --color-1: #ACCFCB;
+      --color-2: #DBAD4A;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-2: #ACCFCB;
+    --color-1: #E4A9A8;
+    --color-3: #fcbd19;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #fcbd19;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .partnerwrite {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 1vh
+  }
+  
+  .parttitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 5.5vw;
+    text-transform: uppercase;
+  }
+  
+
+.partnerdown p{
+    font-size: 40px;
+    margin: 0px;
+    font-family: 'Square Peg', cursive;
+}
+
+
+.patbottom{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    margin-top: 400px;
+}
+
+
+
+.patbottom ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.patbottom li{
+    height: 40vh;
+    flex-grow: 1;
+    list-style: none;
+    padding: 12px;
+    /*     overflow: hidden; */
+}
+
+.imgpatbot{
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    /* object-fit: cover;
+    vertical-align: bottom; */
+    box-shadow: 5px 5px 5px transparent;
+    transition: all 0.5s;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.767);
+    
+}
+
+.patbottom img:hover {
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.767);
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+  

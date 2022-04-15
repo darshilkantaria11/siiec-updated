@@ -15,7 +15,7 @@ const Second = () => {
           <p>download details </p>
         </div>
         <div id="four">
-          <a href="" target='_blank'>here</a>
+          <a href="" target=''>here</a>
         </div>
       </div>
       <div className="down">
