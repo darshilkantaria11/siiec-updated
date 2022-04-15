@@ -1,11 +1,13 @@
 .container{
-    background-image:url(../image/baground.svg);
+    background: linear-gradient(150deg, white 50%, #fef6e3 50%);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+    /* background-position: center; */
+    background-size: 100%;
     display: grid;
+    
      grid-template-areas:
-                'navbar navbar navbar navbar'
+                'navbar navbar aside aside'
+                'section section aside aside'
                 'section section aside aside'
                 'footer footer footer footer ';
 
@@ -64,8 +66,8 @@ footer {
     margin: 0px 0px 8px;
 }
 .imgs1{
-    width: 500px;
-    height: 600px;
+    width: 750px;
+    height: 850px;
 }
 button{
     padding: 5px;

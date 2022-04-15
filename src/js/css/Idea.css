@@ -3,8 +3,8 @@
     height: fit-content;
     width: auto;
     background-color: #FAFAFA;
-    grid-template-areas: 
-    'idea1 idea1 idea1 idea2';
+grid-template-areas: 
+'idea1 idea1 idea1 idea2';
 }
 
 .idea1{
@@ -18,71 +18,71 @@ grid-template-areas:
 height: auto;
 }
 .idea2{
-    grid-area: idea2;
-    
-   
+grid-area: idea2;
+
+
 }
 .i5a{
-    
-    width: 500px;
-    height: 700px;
+
+width: 500px;
+height: 700px;
 }
 .i1{
-    grid-area: i1;
-    margin: auto;
-    padding: auto;
-    margin-left: 50px;
+grid-area: i1;
+margin: auto;
+padding: auto;
+margin-left: 50px;
 }
 .i2{
-    grid-area: i2;
-    margin-right: auto;
+grid-area: i2;
+margin-right: auto;
 }
 .i3{
-    grid-area: i3;
+grid-area: i3;
 }
 .i4{
-    grid-area: i4;
+grid-area: i4;
 }
 .i1a{
-    margin: 0px;
-    font-size: 60px;
-    display: flex;
+margin: 0px;
+font-size: 60px;
+display: flex;
 }
 .i1b{
-    color: #ffc429;
-    font-size: 99px;
-    margin: 0px;
-    display: flex;
+color: #ffc429;
+font-size: 99px;
+margin: 0px;
+display: flex;
 }
 .i2a{
-    font-size: 200px;
-    margin: 0px;
-    display: flex;
-    margin-top: 90px;
-    margin-right: 100px;
-    padding-top: 0px;
+font-size: 200px;
+margin: 0px;
+display: flex;
+margin-top: 90px;
+margin-right: 100px;
+padding-top: 0px;
 }
 .i3a{
-    font-size: 60px;
-    color: #706E6A;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0px;
-    margin-left: 50px;
+font-size: 60px;
+color: #706E6A;
+font-family: 'Ubuntu', sans-serif;
+margin: 0px;
+margin-left: 50px;
 
 }
 .i4{
-    width: 90px;
-    height: 90px;
+width: 90px;
+height: 90px;
 }
 .i4a{
-    width: 400px;
-    height: 30px;
-    margin: 10px;
-    margin-left: 50px;
+width: 400px;
+height: 30px;
+margin: 10px;
+margin-left: 50px;
 }
 .i4b{
-    margin-left: 350px;
-    background-color: #ffc429;
-    border-radius: 10px;
-   
+margin-left: 350px;
+background-color: #ffc429;
+border-radius: 10px;
+
 }
